@@ -235,10 +235,21 @@ class VehiclesPageContent extends StatelessWidget {
                               )
                             ],
                           ),
-                          const Padding(
-                            padding: EdgeInsets.only(left: 5.0),
-                            child: Icon(
-                              Icons.priority_high_rounded,
+                          Padding(
+                            padding: const EdgeInsets.only(left: 8.0),
+                            child: Tooltip(
+                              message: "Lorem Lorem text",
+                              child: Container(
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(100),
+                                    border: Border.all(
+                                        width: 2, color: Colors.grey)),
+                                child: const Icon(
+                                  Icons.priority_high_rounded,
+                                  color: Colors.grey,
+                                  size: 18,
+                                ),
+                              ),
                             ),
                           ),
                         ],
