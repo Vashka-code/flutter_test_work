@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test_work/features/login/login_repository.dart';
-import 'package:flutter_test_work/features/main/main_page_bloc.dart';
-import 'package:flutter_test_work/pages/main_page.dart';
 import 'package:flutter_test_work/pages/login_screen.dart';
 
 void main() {
