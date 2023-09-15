@@ -30,11 +30,9 @@ flutter_native_splash:
   android: true
   web: true
   android_12:
-    background_image: assets/back_30-years.png
     image: assets/sam_logo.png
-    color: '#eeeeee'
-  color: '#eeeeee'
-  background_image: assets/back_30-years.png
+    color: '#ffffff'
+  color: '#ffffff'
   image: assets/sam_logo.png
 
 flutter:
