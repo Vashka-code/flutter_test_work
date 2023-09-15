@@ -18,6 +18,7 @@ dependencies:
   dio:
   http:
   carousel_slider:
+  remixicon:
 
 dev_dependencies:
   flutter_test:

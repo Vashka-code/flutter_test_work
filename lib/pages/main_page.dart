@@ -7,6 +7,7 @@ import 'package:flutter_test_work/pages/content/calendar_page_content.dart';
 import 'package:flutter_test_work/pages/content/drivers_page_content.dart';
 import 'package:flutter_test_work/pages/content/home_page_content.dart';
 import 'package:flutter_test_work/pages/content/vehicles_page_content.dart';
+import 'package:remixicon/remixicon.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({super.key});
@@ -28,7 +29,7 @@ class MainPage extends StatelessWidget {
                 BottomNavigationBarItem(
                     icon: Icon(Icons.calendar_today), label: 'Calendar'),
                 BottomNavigationBarItem(
-                    icon: Icon(Icons.groups), label: 'Drivers'),
+                    icon: Icon(Remix.steering_line), label: 'Drivers'),
                 BottomNavigationBarItem(
                     icon: Icon(Icons.directions_car), label: 'Vehicles')
               ],
