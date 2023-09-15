@@ -23,15 +23,7 @@ class MyApp extends StatelessWidget {
       ),
       home: RepositoryProvider(
         create: (context) => (LoginRepository()),
-        child: MultiBlocProvider(
-          providers: [
-            BlocProvider(
-              create: (context) => MainPageBloc(),
-              child: const MainPage(),
-            ),
-          ],
-          child: const LoginScreen(),
-        ),
+        child: const LoginScreen(),
       ),
     );
   }

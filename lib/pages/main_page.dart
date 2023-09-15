@@ -29,7 +29,7 @@ class MainPage extends StatelessWidget {
                 BottomNavigationBarItem(
                     icon: Icon(Icons.calendar_today), label: 'Calendar'),
                 BottomNavigationBarItem(
-                    icon: Icon(Remix.steering_line), label: 'Drivers'),
+                    icon: Icon(Remix.steering_fill), label: 'Drivers'),
                 BottomNavigationBarItem(
                     icon: Icon(Icons.directions_car), label: 'Vehicles')
               ],
